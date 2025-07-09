@@ -4,7 +4,7 @@ import Navbar from './components/Navbar.jsx';
  const App = () => {
   return (
     <div>
-      <Navbar/> 
+      <h1 className =  "ext-3xl front bold underline ">Hello World</h1>
     </div>
   );
 };
