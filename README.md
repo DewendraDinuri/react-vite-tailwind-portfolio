@@ -13,3 +13,9 @@ If you are developing a production application, we recommend using TypeScript wi
 
 when you have new tailwind version  above 4.0  you have to use this to creat tailwind.config.css file 
 npm i -D taiwindcss@3 postcss autoprefixer
+
+
+Here i use tailwind 3.14.17
+
+
+thes thing only suit for this version new version complete different 
