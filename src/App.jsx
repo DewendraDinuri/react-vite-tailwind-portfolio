@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './components/Navbar.jsx';
+import Hero from './components/Hero.jsx';
 
 const App = () => {
   return (
@@ -14,9 +15,9 @@ const App = () => {
         <div className="absolute top-[-10%] right-[-20%] h-[500px] w-[500px] rounded-full" style={{ background: 'radial-gradient(circle farthest-side, rgba(255, 0, 182, 0.15), rgba(255, 255, 255, 0))',}}></div>
       </div>
       <div className="container mx-auto px-8">
-
       </div>
       <Navbar/>
+      <Hero/>
     </div>
   );
 };

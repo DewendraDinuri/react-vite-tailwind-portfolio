@@ -1,9 +1,9 @@
 const Hero = () => {
-  return  <div className="border-b border-neutral-900 pb-4 lg:mb-35">
+  return  <div className="border-b-0 border-neutral-900 pb-4 lg:mb-35">
     <div className="flex flex-wrap">
         <div className="w-full lg:w-1/2">
             <div className="flex flex-col items-center lg:items-start">
-                <h1>Dinza Dewen</h1>
+                <h1 className="pb-16 text-6xl font-thin tracking-tight lg:mt-32 lg:text-8xl text-white px-16">Dinza Dewen</h1>
             </div>
         </div>
     </div>
