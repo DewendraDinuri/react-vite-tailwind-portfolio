@@ -4,6 +4,9 @@ import Hero from './components/Hero.jsx';
 import About from './components/About.jsx';
 import Technologies from './components/Technologies.jsx';
 import Projects from './components/Projects.jsx';
+import Contact from './components/Contact.jsx';
+import Featured from './components/Featured.jsx';
+
 
 const App = () => {
   return (
@@ -24,6 +27,8 @@ const App = () => {
       <About />
       <Technologies />
       <Projects/>
+      <Featured />
+      <Contact />
     </div>
   );
 };

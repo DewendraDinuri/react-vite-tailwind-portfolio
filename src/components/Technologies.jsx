@@ -3,7 +3,7 @@ import { FaNodeJs } from "react-icons/fa";          // Node.js
 import { SiSpringboot } from "react-icons/si";      // Spring Boot
 import { SiAnaconda } from "react-icons/si";        // Anaconda
 import { FaAngular } from "react-icons/fa";         // Angular
-import { TbCodeCircle } from "react-icons/tb";      // OOP (symbolic)
+import { BiLogoJava } from "react-icons/bi";      // OOP (symbolic)
 import { SiMongodb } from "react-icons/si";         // MongoDB
 import { GrMysql } from "react-icons/gr";           // MySQL
 import { BiLogoPostgresql } from "react-icons/bi";      // PostgreSQL
@@ -26,7 +26,7 @@ const Technologies = () => {
           <FaAngular className="text-7xl text-[#DD0031]" /> {/* Angular red */}
         </div>
         <div className="rounded-2xl border-4 border-neutral-700 p-4">
-          <TbCodeCircle className="text-7xl text-[#FFD700]" /> {/* OOP symbolic — gold */}
+          <BiLogoJava className="text-7xl text-orange-700" /> {/* OOP symbolic — gold */}
         </div>
         <div className="rounded-2xl border-4 border-neutral-700 p-4">
           <SiAnaconda className="text-7xl text-green-500" /> {/* Anaconda green */}
