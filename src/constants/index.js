@@ -60,7 +60,7 @@ export const PROJECTS = [
     technologies: ["React", "Tailwindcss"],
   },
   {
-    title: "Blogging Platform", 
+    title: "Blogging  Platform", 
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
