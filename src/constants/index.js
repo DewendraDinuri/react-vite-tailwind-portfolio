@@ -60,16 +60,23 @@ export const PROJECTS = [
     technologies: ["React", "Tailwindcss"],
   },
   {
-    title: "Blogging  Platform", 
+    title: "Class Classification Modale", 
     image: project4,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
   },
+  {
+    title: "Foody - Food Delivery App", 
+    image: project4,
+    description:
+      "A platform for creating and publishing their food delivery app, with features like restaurant listings, order management, and user profiles.",
+    technologies: ["Swift"],
+  }
 ];
-
-export const CONTACT = {
-  address: "767 Fifth Avenue, New York, NY 10153 ",
-  phoneNo: "+12 4555 666 00 ",
-  email: "me@example.com",
+export const SOCIAL_LINKS = {
+  FaLinkedinIn: "https://www.linkedin.com/in/dinza-dewn/",
+  github: "https://github.com/DewendraDinuri?tab=repositories",
+  instagram: "https://www.instagram.com/dinza._.dewen",
+  youtube: "https://www.youtube.com/@code_dinza",
 };
