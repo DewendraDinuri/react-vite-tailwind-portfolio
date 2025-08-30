@@ -5,6 +5,8 @@ import {
   FaTwitter,
   FaInstagram,
 } from "react-icons/fa";
+import porfilePic from "../assets/kevinRushProfile.png"
+
 
 const ContactMe = () => {
   return (
@@ -24,8 +26,7 @@ const ContactMe = () => {
             <div>
               <div className="w-32 h-32 mx-auto mb-10">
                 <img
-                  src="/profile.png"
-                  alt="Profile"
+                  src={porfilePic} alt="KevinRush Profile Picture"
                   className="w-full h-full object-cover rounded shadow-md"
                 />
               </div>
