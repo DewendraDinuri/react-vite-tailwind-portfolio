@@ -15,7 +15,8 @@ const Hero = () => {
           <img
             src={porfilePic}
             alt="Profile Picture"
-            className="max-w-[280px] md:max-w-[350px] lg:max-w-[400px] w-full h-auto rounded-2xl shadow-lg object-cover"
+            className="max-w-[280px] md:max-w-[350px] lg:max-w-[400px] w-full h-auto rounded-2xl shadow-lg object-cover transform -scale-x-100
+" 
           />
         </div>
     </div>
