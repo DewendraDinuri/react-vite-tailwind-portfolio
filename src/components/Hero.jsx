@@ -53,11 +53,10 @@ const Hero = () => {
             src={profilePic}
             alt="Profile Picture"
             className="max-w-[280px] md:max-w-[350px] lg:max-w-[400px] ml-24 w-full h-auto rounded-2xl shadow-lg object-cover"
-            initial={{ opacity: 0, y: 50, scaleX: -1 }}  // keep mirror on initial
-            animate={{ opacity: 1, y: 0, scaleX: -1 }}   // keep mirror on animate
+            initial={{ opacity: 0, x: 100, scaleX: -1 }}  
+            animate={{ opacity: 1, x: 0, scaleX: -1 }}  
             transition={{ duration: 1, ease: "easeOut" }}
           />
-
         </motion.div>
       </div>
     </div>
