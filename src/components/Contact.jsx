@@ -27,7 +27,7 @@ const ContactMe = () => {
               <div className="w-32 h-32 mx-auto mb-10">
                 <img
                   src={porfilePic} alt="KevinRush Profile Picture"
-                  className="w-full h-full object-cover rounded shadow-md"
+                  className="w-full h-full object-cover rounded-full shadow-md border-2 border-purple-500"
                 />
               </div>
               <h3 className="text-2xl font-semibold text-purple-200">
