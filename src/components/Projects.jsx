@@ -3,7 +3,11 @@ import { PROJECTS } from "../constants"
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-24 lg:mb-36 lg:text-3xl">
-      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      <motion.h2 
+        initial={{ opacity: 0, scale: 0.8 }}
+        whileInView={{ opacity: 1, scale: 1 }}
+        transition={{ duration: 0.8, ease: "easeOut" }}
+      className="my-20 text-center text-4xl">Projects</motion.h2>
       <div>
         {PROJECTS.map((project, index) => (
           <div key={index} className="mb-12 flex flex-wrap items-start justify-center gap-8">
