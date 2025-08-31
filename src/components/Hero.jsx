@@ -49,6 +49,9 @@ const Hero = () => {
 
         {/* Right Side - Image */}
         <motion.div className="w-full lg:w-1/2 lg:p-8 flex justify-center lg:justify-start">
+        initial={{ opacity: 0, y: 50 }}       // start hidden & slightly down
+    animate={{ opacity: 1, y: 0 }}        // fade in & slide up
+    transition={{ duration: 1, ease: "easeOut" }} // smooth transition
           <img
             src={profilePic}
             alt="Profile Picture"
