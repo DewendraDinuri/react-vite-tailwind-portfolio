@@ -54,7 +54,7 @@ const Hero = () => {
             alt="Profile Picture"
             className="max-w-[280px] md:max-w-[350px] lg:max-w-[400px] ml-24 w-full h-auto rounded-2xl shadow-lg object-cover transform -scale-x-100"
           />
-        </motion.ddiv>
+        </motion.div>
       </div>
     </div>
   );
