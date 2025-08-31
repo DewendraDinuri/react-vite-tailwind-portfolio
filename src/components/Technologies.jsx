@@ -9,6 +9,7 @@ import { GrMysql } from "react-icons/gr";           // MySQL
 import { BiLogoPostgresql } from "react-icons/bi";  // PostgreSQL
 import { motion } from "framer-motion";
 
+// Dancing motion for icons (as before)
 const iconVariants = (duration) => ({
   initial: { y: -10 },
   animate: {
@@ -22,9 +23,24 @@ const iconVariants = (duration) => ({
   }
 });
 
+const containerVariants = {
+  hidden: { opacity: 0, y: 50 },
+  visible: { 
+    opacity: 1, 
+    y: 0, 
+    transition: { staggerChildren: 0.2, ease: "easeOut" } 
+  }
+};
+
 const Technologies = () => {
   return (
-    <div className="border-b-0 border-neutral-900 pb-24 lg:mb-36 lg:text-3xl">
+    <motion.div
+      className="border-b-0 border-neutral-900 pb-24 lg:mb-36 lg:text-3xl"
+      variants={containerVariants}
+      initial="hidden"
+      whileInView="visible"
+      viewport={{ once: false, amount: 0.3 }}
+    >
       {/* Heading */}
       <motion.h2
         initial={{ opacity: 0, scale: 0.8 }}
@@ -118,7 +134,7 @@ const Technologies = () => {
           <GrMysql className="text-7xl text-[#00758F]" />
         </motion.div>
       </motion.div>
-    </div>
+    </motion.div>
   );
 };
 
