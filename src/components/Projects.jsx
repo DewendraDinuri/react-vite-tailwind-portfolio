@@ -25,7 +25,18 @@ const headingVariants = {
 const Projects = () => {
   return (
     <div className="border-b border-neutral-900 pb-24 lg:mb-36 lg:text-3xl">
-      <h2 className="my-20 text-center text-4xl">Projects</h2>
+      {/* Section Heading */}
+      <motion.h2
+        variants={headingVariants}
+        initial="hidden"
+        whileInView="visible"
+        viewport={{ once: false, amount: 0.5 }} // triggers every time 50% is in view
+        className="my-20 text-center text-4xl"
+      >
+        Projects
+      </motion.h2>
+
+      {/* Projects List */}
       <div>
         {PROJECTS.map((project, index) => (
           <div
