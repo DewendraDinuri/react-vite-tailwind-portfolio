@@ -27,7 +27,7 @@ const Hero = () => {
               viewport={{ once: false, amount: 0.3 }}
               className="pb-16 text-6xl font-thin tracking-tight lg:mt-32 lg:text-7xl text-white px-16"
             >
-              Dinza Dewen
+              Dinuri Dewendra
             </motion.h1>
             
             <motion.span 
