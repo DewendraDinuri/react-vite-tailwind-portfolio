@@ -62,7 +62,7 @@ export const PROJECTS = [
   },
   {
     title: "Class Classification Modale", 
-    image: project4,
+    image: project5,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
