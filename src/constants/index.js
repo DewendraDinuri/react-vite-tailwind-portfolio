@@ -40,7 +40,7 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "Agri Adapt - AI Powered Crop Management",
+    title: "Agri Adapt - Automated Advisory Generation for Climate Change Resilient Agriculture",
     image: project1,
     description:
       "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
