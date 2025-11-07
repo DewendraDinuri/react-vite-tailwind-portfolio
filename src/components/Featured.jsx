@@ -21,9 +21,6 @@ const itemVariants = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.8, ease: "easeOut" } },
 };
 
-// ---------------------------
-// Download Button Motion
-// ---------------------------
 const buttonVariants = {
   hidden: { opacity: 0, scale: 0.8, y: 20 },
   visible: { 
@@ -81,11 +78,11 @@ function Featured() {
         <motion.a
           variants={buttonVariants}
           whileHover={{ scale: 1.05 }}
-          whileTap="click"        // triggers click animation
+          whileTap="click"
           href="/CV/Dinuri Dewendra.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-block px-10 py-4 bg-gradient-to-r from-purple-600 to-purple-900 text-black text-lg rounded-xl font-medium shadow-md cursor-pointer  hover:text-white hover:shadow-purple-500/100 shadow-md transition duration-300"
+          className="inline-block px-10 py-4 bg-gradient-to-r from-purple-600 to-purple-900 text-black text-lg rounded-xl font-medium shadow-md cursor-pointer hover:text-white hover:shadow-purple-500/100 transition duration-300"
         >
           Download
         </motion.a>

@@ -2,6 +2,7 @@ import project1 from "../assets/projects/project-1.jpg";
 import project2 from "../assets/projects/project-2.jpg";
 import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.jpg";
+import project5 from "../assets/projects/project-5.png";
 
 export const HERO_CONTENT = `I'm a passionate software engineer turning ideas into scalable digital solutions. I focus on crafting intuitive user experiences and writing clean, maintainable code. With a strong foundation in object-oriented programming and Java, I build responsive front-ends using React and Tailwind CSS, and powerful back-ends with Node.js. Every project is a step toward innovation blending creativity, logic, and purpose to shape the future of web development.`;
 
@@ -61,7 +62,7 @@ export const PROJECTS = [
   },
   {
     title: "Class Classification Modale", 
-    image: project4,
+    image: project5,
     description:
       "A platform for creating and publishing blog posts, with features like rich text editing, commenting, and user profiles.",
     technologies: ["HTML", "CSS", "Vue.js", "Express", "mySQL"],
